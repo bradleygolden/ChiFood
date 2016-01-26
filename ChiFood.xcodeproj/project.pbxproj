@@ -101,10 +101,10 @@
 		9DB204E01C56FA6000927611 /* ChiFood */ = {
 			isa = PBXGroup;
 			children = (
+				9DB205141C56FA6E00927611 /* ViewControllers */,
+				9DB205151C56FA7600927611 /* Models */,
 				9DB204E41C56FA6000927611 /* AppDelegate.h */,
 				9DB204E51C56FA6000927611 /* AppDelegate.m */,
-				9DB204E71C56FA6000927611 /* ViewController.h */,
-				9DB204E81C56FA6000927611 /* ViewController.m */,
 				9DB204EA1C56FA6000927611 /* Main.storyboard */,
 				9DB204ED1C56FA6000927611 /* Assets.xcassets */,
 				9DB204EF1C56FA6000927611 /* LaunchScreen.storyboard */,
@@ -138,6 +138,22 @@
 				9DB205081C56FA6000927611 /* Info.plist */,
 			);
 			path = ChiFoodUITests;
+			sourceTree = "<group>";
+		};
+		9DB205141C56FA6E00927611 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DB204E71C56FA6000927611 /* ViewController.h */,
+				9DB204E81C56FA6000927611 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9DB205151C56FA7600927611 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
